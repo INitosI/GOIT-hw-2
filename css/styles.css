@@ -1,0 +1,138 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
+
+  --font-family: 'Roboto', sans-serif;
+  --second-family: 'Raleway', sans-serif;
+}
+/* названия заголовков selection title */
+
+.section-title {
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+/* div */
+.container {
+  width: 100%;
+  max-width: 1288px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* sections */
+
+.section {
+  /* !!!!!!!!!!!! */
+  padding: 20px 0;
+  /* !!!!!!!!!!!! */
+}
+
+/* hidden h2 */
+.hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  /* приберає крапки на проти списку */
+}
+
+/* HEADER */
+
+.header {
+}
+.header-nav {
+}
+.header-logo {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--navy-blue);
+}
+.header-logo-color {
+  color: var(--iris);
+}
+.header-menu {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+.header-menu-item {
+}
+.header-menu-link {
+  color: var(--navy-blue);
+}
+.header-contacts {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+.header-contacts-list {
+}
+.header-contacts-item {
+}
+.header-contacts-link {
+  color: var(--slate);
+}
