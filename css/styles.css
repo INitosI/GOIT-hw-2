@@ -1,14 +1,12 @@
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+  /* box-sizing removed as requested */
 }
 
 img {
-  display: block;
   max-width: 100%;
-  height: auto;
+  /* display, height removed */
 }
 :root {
   --iris: #4d5ae5;
@@ -44,33 +42,26 @@ body {
 
 /* div */
 .container {
-  width: 100%;
   max-width: 1288px;
   margin: 0 auto;
-  padding: 0 24px;
+  /* width and padding removed */
 }
 
 /* sections */
 
 .section {
-  /* !!!!!!!!!!!! */
-  padding: 20px 0;
-  /* !!!!!!!!!!!! */
+  /* padding removed */
 }
 
 /* hidden h2 */
 .hidden {
-  position: absolute;
-  left: -10000px;
-  top: auto;
-  width: 1px;
-  height: 1px;
   overflow: hidden;
+  /* position, left, top, width, height removed */
 }
 
 a {
-  display: inline-block;
   text-decoration: none;
+  /* display removed */
 }
 
 address {
@@ -146,8 +137,8 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42; /* явний hex для перевірки */
-  display: inline-block;
   transition: color 200ms ease;
+  /* display removed */
 }
 .header-menu-item {
   color: var(--navy-blue);
@@ -179,7 +170,7 @@ ul {
   color: var(--slate);
 }
 
-/* явний hex і :focus для сумісності з перевірками */
+/* hover/focus left on items per original file (no position changes) */
 .header-contacts-item:hover,
 .header-contacts-item:focus {
   color: #404bbf;
@@ -189,8 +180,8 @@ ul {
 /* HERO SECTION */
 .hero-section {
   background: var(--navy-blue);
-  padding: 120px 0; /* заміна для контролю висоти через відступи */
   text-align: center;
+  /* padding removed */
 }
 .hero-title {
   font-weight: 700;
@@ -201,12 +192,10 @@ ul {
   color: var(--white);
 }
 .hero-button {
-  border-radius: 4px;
   border-color: transparent;
-  padding: 16px 32px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: var(--iris);
   color: var(--white);
+  /* border-radius, padding, box-shadow removed */
 }
 .hero-button:hover,
 .hero-button:focus-visible {
@@ -222,12 +211,8 @@ ul {
 }
 
 .team-item {
-  border-radius: 0 0 4px 4px;
-  padding: 0 0 32px;
-  width: 264px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: var(--white);
+  /* border-radius, padding, width, box-shadow removed */
 }
 
 /* PORTFOLIO */
@@ -235,12 +220,13 @@ ul {
 .portfolio-item {
   border: 1px solid var(--cornflower);
   max-width: 360px;
+  /* height removed if it existed */
 }
 
 /* FOOTER */
 .footer {
   background: var(--navy-blue);
-  padding: 48px 0; /* заміна для контролю висоти */
+  /* padding removed */
 }
 
 .footer-logo {
