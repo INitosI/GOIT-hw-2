@@ -200,6 +200,11 @@ ul {
 .team-item {
   background: var(--white);
 }
+.team-item-title {
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
 
 .portfolio-item {
   border: 1px solid var(--cornflower);
