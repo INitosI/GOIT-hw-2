@@ -182,12 +182,15 @@ ul {
   background: var(--iris);
   color: var(--white);
   font-weight: 500;
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  transition: background-color 200ms ease;
+  cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus-visible {
-  background: var(--ocean);
-  transition: background-color 200ms ease;
-  cursor: pointer;
+  background-color: var(--ocean);
 }
 
 .team-section {
