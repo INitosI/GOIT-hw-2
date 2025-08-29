@@ -188,7 +188,9 @@ ul {
   transition: background-color 200ms ease;
   cursor: pointer;
 }
-.hero-button:hover,
+.hero-button:hover {
+  background-color: var(--ocean);
+}
 .hero-button:focus-visible {
   background-color: var(--ocean);
 }
