@@ -37,7 +37,7 @@ img {
 
 body {
   font-family: var(--font-family);
-  color: var(--navy-blue);
+  color: var(--slate);
   background-color: var(--white);
   margin: 0;
 }
@@ -174,7 +174,7 @@ ul {
 /* HERO SECTION */
 .hero-section {
   background: var(--navy-blue);
-  height: 600px;
+  padding: 120px 0; /* заміна для контролю висоти через відступи */
   text-align: center;
 }
 .hero-title {
@@ -189,8 +189,6 @@ ul {
   border-radius: 4px;
   border-color: transparent;
   padding: 16px 32px;
-  width: 169px;
-  height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: var(--iris);
   color: var(--white);
@@ -210,9 +208,8 @@ ul {
 
 .team-item {
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px;
+  padding: 0 0 32px;
   width: 264px;
-  height: 380px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: var(--white);
@@ -221,17 +218,14 @@ ul {
 /* PORTFOLIO */
 
 .portfolio-item {
-  border-bottom: 1px solid var(--cornflower);
-  border-left: 1px solid var(--cornflower);
-  border-right: 1px solid var(--cornflower);
+  border: 1px solid var(--cornflower);
   max-width: 360px;
-  height: 420px;
 }
 
 /* FOOTER */
 .footer {
   background: var(--navy-blue);
-  height: 312px;
+  padding: 48px 0; /* заміна для контролю висоти */
 }
 
 .footer-logo {
