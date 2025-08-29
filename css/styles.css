@@ -217,9 +217,10 @@ ul {
   background: var(--white);
 }
 .team-item-title {
-  line-height: 1.2;
+  text-align: center;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  text-transform: capitalize;
 }
 
 /* PORTFOLIO */
