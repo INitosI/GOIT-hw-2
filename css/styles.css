@@ -192,11 +192,10 @@ ul {
   transition: background-color 200ms ease;
   cursor: pointer;
 }
-.hero-button:hover {
-  background-color: var(--ocean);
-}
+.hero-button:hover,
+.hero-button:focus,
 .hero-button:focus-visible {
-  background-color: var(--ocean);
+  background-color: #404bbf;
 }
 
 /* ADVANTAGES */
