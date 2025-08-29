@@ -181,6 +181,7 @@ ul {
   border-color: transparent;
   background: var(--iris);
   color: var(--white);
+  font-weight: 500;
 }
 .hero-button:hover,
 .hero-button:focus-visible {
