@@ -125,15 +125,19 @@ ul {
   color: #2e2f42;
   transition: color 200ms ease;
 }
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #404bbf;
+}
 .header-menu-item {
   color: var(--navy-blue);
-}
-
-.header-menu-item:hover,
-.header-menu-item:focus-visible {
-  color: var(--ocean);
   transition: color 200ms ease;
 }
+
+/* .header-menu-item:hover,
+.header-menu-item:focus-visible {
+  color: var(--ocean);
+} */
 
 .header-contacts {
   font-family: inherit;
@@ -155,16 +159,9 @@ ul {
   color: var(--slate);
 }
 
-.header-contacts-item:hover,
-.header-contacts-item:focus {
-  color: #404bbf;
-  transition: color 200ms ease;
-}
-
 .header-contacts-link:hover,
 .header-contacts-link:focus {
   color: #404bbf;
-  transition: color 200ms ease;
 }
 
 /* HERO */
