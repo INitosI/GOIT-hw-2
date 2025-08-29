@@ -216,11 +216,17 @@ ul {
 .team-item {
   background: var(--white);
 }
-.team-item-title {
+.team-title {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   text-transform: capitalize;
+}
+
+.team-item-title {
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
 }
 
 /* PORTFOLIO */
