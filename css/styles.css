@@ -1,13 +1,11 @@
 *,
 *::before,
 *::after {
-  /* box-sizing removed as requested */
 }
 
 img {
-  /* max-width: 100%; */
-  /* display, height removed */
 }
+
 :root {
   --iris: #4d5ae5;
   --ocean: #404bbf;
@@ -25,12 +23,10 @@ img {
   --font-family: 'Roboto', sans-serif;
   --second-family: 'Raleway', sans-serif;
 }
-/* названия заголовков selection title */
 
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  /* line-height: 111%; */
 }
 
 body {
@@ -40,28 +36,19 @@ body {
   margin: 0;
 }
 
-/* div */
 .container {
-  /* max-width: 1288px; */
   margin: 0 auto;
-  /* width and padding removed */
 }
-
-/* sections */
 
 .section {
-  /* padding removed */
 }
 
-/* hidden h2 */
 .hidden {
   overflow: hidden;
-  /* position, left, top, width, height removed */
 }
 
 a {
   text-decoration: none;
-  /* display removed */
 }
 
 address {
@@ -93,19 +80,14 @@ h3 {
 p {
   font-weight: 400;
   font-size: 16px;
-  /* line-height: 150%; */
   letter-spacing: 0.02em;
   color: var(--slate);
 }
 
 ul {
   margin: 0;
-  /* padding: 0; */
   list-style-type: none;
-  /* приберає крапки на проти списку */
 }
-
-/* HEADER */
 
 .header {
 }
@@ -115,10 +97,9 @@ ul {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 18px;
-  /* line-height: 1.17; */
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5; /* явний hex */
+  color: #4d5ae5;
 }
 .header-logo-color {
   color: #2e2f42;
@@ -127,18 +108,15 @@ ul {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
-  /* line-height: 150%; */
   letter-spacing: 0.02em;
 }
 .header-menu-link {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
-  /* line-height: 1.5; */
   letter-spacing: 0.02em;
-  color: #2e2f42; /* явний hex для перевірки */
+  color: #2e2f42;
   transition: color 200ms ease;
-  /* display removed */
 }
 .header-menu-item {
   color: var(--navy-blue);
@@ -154,16 +132,14 @@ ul {
   font-family: inherit;
   font-weight: 400;
   font-size: 16px;
-  /* line-height: 150%; */
   letter-spacing: 0.02em;
 }
 .header-contacts-link {
   font-family: inherit;
   font-weight: 400;
   font-size: 16px;
-  /* line-height: 1.5; */
   letter-spacing: 0.02em;
-  color: #434455; /* явний hex */
+  color: #434455;
   transition: color 200ms ease;
 }
 .header-contacts-item {
@@ -182,16 +158,13 @@ ul {
   transition: color 200ms ease;
 }
 
-/* HERO SECTION */
 .hero-section {
   background: var(--navy-blue);
   text-align: center;
-  /* padding removed */
 }
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  /* line-height: 107%; */
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white);
@@ -208,7 +181,221 @@ ul {
   cursor: pointer;
 }
 
-/* TEAM */
+.team-section {
+  background: var(--cloud);
+}
+
+.team-item {
+  background: var(--white);
+}
+
+.portfolio-item {
+  border: 1px solid var(--cornflower);
+}
+
+.footer {
+  background: var(--navy-blue);
+}
+
+.footer-logo {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+.footer-logo-color {
+  color: var(--cloud);
+}
+
+.footer-text {
+  color: var(--cloud);
+}
+```// filepath: c:\Users\Danylo\Desktop\1123\FullStack\HomeWorks\GOIT-hw-2\css\styles.css
+// ...existing code...
+*,
+*::before,
+*::after {
+}
+
+img {
+}
+
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
+
+  --font-family: 'Roboto', sans-serif;
+  --second-family: 'Raleway', sans-serif;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--slate);
+  background-color: var(--white);
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.section {
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+ul {
+  margin: 0;
+  list-style-type: none;
+}
+
+.header {
+}
+.header-nav {
+}
+.header-logo {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.header-logo-color {
+  color: #2e2f42;
+}
+.header-menu {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+.header-menu-link {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  transition: color 200ms ease;
+}
+.header-menu-item {
+  color: var(--navy-blue);
+}
+
+.header-menu-item:hover,
+.header-menu-item:focus-visible {
+  color: var(--ocean);
+  transition: color 200ms ease;
+}
+
+.header-contacts {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+.header-contacts-link {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #434455;
+  transition: color 200ms ease;
+}
+.header-contacts-item {
+  color: var(--slate);
+}
+
+.header-contacts-item:hover,
+.header-contacts-item:focus {
+  color: #404bbf;
+  transition: color 200ms ease;
+}
+
+.header-contacts-link:hover,
+.header-contacts-link:focus {
+  color: #404bbf;
+  transition: color 200ms ease;
+}
+
+.hero-section {
+  background: var(--navy-blue);
+  text-align: center;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white);
+}
+.hero-button {
+  border-color: transparent;
+  background: var(--iris);
+  color: var(--white);
+}
+.hero-button:hover,
+.hero-button:focus-visible {
+  background: var(--ocean);
+  transition: background-color 200ms ease;
+  cursor: pointer;
+}
 
 .team-section {
   background: var(--cloud);
@@ -218,25 +405,18 @@ ul {
   background: var(--white);
 }
 
-/* PORTFOLIO */
-
 .portfolio-item {
   border: 1px solid var(--cornflower);
-  /* max-width: 360px; */
-  /* height removed if it existed */
 }
 
-/* FOOTER */
 .footer {
   background: var(--navy-blue);
-  /* padding removed */
 }
 
 .footer-logo {
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 18px;
-  /* line-height: 117%; */
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
