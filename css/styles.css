@@ -91,6 +91,8 @@ ul {
   list-style-type: none;
 }
 
+/* HEADER */
+
 .header {
 }
 .header-nav {
@@ -165,6 +167,8 @@ ul {
   transition: color 200ms ease;
 }
 
+/* HERO */
+
 .hero-section {
   background: var(--navy-blue);
   text-align: center;
@@ -195,6 +199,16 @@ ul {
   background-color: var(--ocean);
 }
 
+/* ADVANTAGES */
+
+.advantages-item-title {
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+/* TEAM */
+
 .team-section {
   background: var(--cloud);
 }
@@ -208,6 +222,8 @@ ul {
   color: var(--navy-blue);
 }
 
+/* PORTFOLIO */
+
 .portfolio-item {
   border: 1px solid var(--cornflower);
 }
@@ -217,6 +233,8 @@ ul {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
+
+/* FOOTER */
 
 .footer {
   background: var(--navy-blue);
