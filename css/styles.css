@@ -193,8 +193,7 @@ ul {
   cursor: pointer;
 }
 .hero-button:hover,
-.hero-button:focus,
-.hero-button:focus-visible {
+.hero-button:focus {
   background-color: #404bbf;
 }
 
