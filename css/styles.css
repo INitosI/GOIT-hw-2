@@ -1,13 +1,11 @@
 *,
 *::before,
 *::after {
-  /* box-sizing removed as requested */
 }
 
 img {
-  /* max-width: 100%; */
-  /* display, height removed */
 }
+
 :root {
   --iris: #4d5ae5;
   --ocean: #404bbf;
@@ -25,7 +23,6 @@ img {
   --font-family: 'Roboto', sans-serif;
   --second-family: 'Raleway', sans-serif;
 }
-/* названия заголовков selection title */
 
 .section-title {
   font-weight: 700;
@@ -40,28 +37,19 @@ body {
   margin: 0;
 }
 
-/* div */
 .container {
-  /* max-width: 1288px; */
   margin: 0 auto;
-  /* width and padding removed */
 }
-
-/* sections */
 
 .section {
-  /* padding removed */
 }
 
-/* hidden h2 */
 .hidden {
   overflow: hidden;
-  /* position, left, top, width, height removed */
 }
 
 a {
   text-decoration: none;
-  /* display removed */
 }
 
 address {
@@ -100,12 +88,8 @@ p {
 
 ul {
   margin: 0;
-  /* padding: 0; */
   list-style-type: none;
-  /* приберає крапки на проти списку */
 }
-
-/* HEADER */
 
 .header {
 }
@@ -118,7 +102,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5; /* явний hex */
+  color: #4d5ae5;
 }
 .header-logo-color {
   color: #2e2f42;
@@ -136,9 +120,8 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42; /* явний hex для перевірки */
+  color: #2e2f42;
   transition: color 200ms ease;
-  /* display removed */
 }
 .header-menu-item {
   color: var(--navy-blue);
@@ -163,7 +146,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455; /* явний hex */
+  color: #434455;
   transition: color 200ms ease;
 }
 .header-contacts-item {
@@ -182,11 +165,9 @@ ul {
   transition: color 200ms ease;
 }
 
-/* HERO SECTION */
 .hero-section {
   background: var(--navy-blue);
   text-align: center;
-  /* padding removed */
 }
 .hero-title {
   font-weight: 700;
@@ -200,7 +181,6 @@ ul {
   border-color: transparent;
   background: var(--iris);
   color: var(--white);
-  /* border-radius, padding, box-shadow removed */
 }
 .hero-button:hover,
 .hero-button:focus-visible {
@@ -209,29 +189,20 @@ ul {
   cursor: pointer;
 }
 
-/* TEAM */
-
 .team-section {
   background: var(--cloud);
 }
 
 .team-item {
   background: var(--white);
-  /* border-radius, padding, width, box-shadow removed */
 }
-
-/* PORTFOLIO */
 
 .portfolio-item {
   border: 1px solid var(--cornflower);
-  /* max-width: 360px; */
-  /* height removed if it existed */
 }
 
-/* FOOTER */
 .footer {
   background: var(--navy-blue);
-  /* padding removed */
 }
 
 .footer-logo {
