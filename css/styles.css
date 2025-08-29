@@ -8,25 +8,8 @@ img {
   max-width: 100%;
   /* display, height removed */
 }
-:root {
-  --iris: #4d5ae5;
-  --ocean: #404bbf;
-  --navy-blue: #2e2f42;
-  --green: #31d0aa;
-  --slate: #434455;
-  --light-slate: #8e8f99;
-  --cornflower: #e7e9fc;
-  --cloud: #f4f4fd;
-  --navy-blue-modal: rgba(46, 47, 66, 0.4);
-  --grey: rgba(46, 47, 66, 0.7);
-  --white: #fff;
-  --dairy: #fcfcfc;
 
-  --font-family: 'Roboto', sans-serif;
-  --second-family: 'Raleway', sans-serif;
-}
-/* названия заголовков selection title */
-
+/* Переменные заменены на явные значения */
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -34,9 +17,9 @@ img {
 }
 
 body {
-  font-family: var(--font-family);
-  color: var(--slate);
-  background-color: var(--white);
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #fff;
   margin: 0;
 }
 
@@ -95,7 +78,7 @@ p {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: var(--slate);
+  color: #434455;
 }
 
 ul {
@@ -112,41 +95,41 @@ ul {
 .header-nav {
 }
 .header-logo {
-  font-family: var(--second-family);
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5; /* явний hex */
+  color: #4d5ae5; /* явный цвет */
 }
 .header-logo-color {
   color: #2e2f42;
 }
 .header-menu {
-  font-family: var(--font-family);
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
 }
 .header-menu-link {
-  font-family: var(--font-family);
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42; /* явний hex для перевірки */
+  color: #2e2f42; /* явный цвет для проверки */
   transition: color 200ms ease;
   /* display removed */
 }
 .header-menu-item {
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 
 .header-menu-item:hover,
 .header-menu-item:focus-visible {
-  color: var(--ocean);
+  color: #404bbf;
   transition: color 200ms ease;
 }
 
@@ -163,11 +146,11 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455; /* явний hex */
+  color: #434455; /* явный цвет */
   transition: color 200ms ease;
 }
 .header-contacts-item {
-  color: var(--slate);
+  color: #434455;
 }
 
 /* hover/focus left on items per original file (no position changes) */
@@ -179,7 +162,7 @@ ul {
 
 /* HERO SECTION */
 .hero-section {
-  background: var(--navy-blue);
+  background: #2e2f42;
   text-align: center;
   /* padding removed */
 }
@@ -189,17 +172,17 @@ ul {
   line-height: 107%;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--white);
+  color: #fff;
 }
 .hero-button {
   border-color: transparent;
-  background: var(--iris);
-  color: var(--white);
+  background: #4d5ae5;
+  color: #fff;
   /* border-radius, padding, box-shadow removed */
 }
 .hero-button:hover,
 .hero-button:focus-visible {
-  background: var(--ocean);
+  background: #404bbf;
   transition: background-color 200ms ease;
   cursor: pointer;
 }
@@ -207,41 +190,41 @@ ul {
 /* TEAM */
 
 .team-section {
-  background: var(--cloud);
+  background: #f4f4fd;
 }
 
 .team-item {
-  background: var(--white);
+  background: #fff;
   /* border-radius, padding, width, box-shadow removed */
 }
 
 /* PORTFOLIO */
 
 .portfolio-item {
-  border: 1px solid var(--cornflower);
+  border: 1px solid #e7e9fc;
   max-width: 360px;
   /* height removed if it existed */
 }
 
 /* FOOTER */
 .footer {
-  background: var(--navy-blue);
+  background: #2e2f42;
   /* padding removed */
 }
 
 .footer-logo {
-  font-family: var(--second-family);
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 117%;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--iris);
+  color: #4d5ae5;
 }
 .footer-logo-color {
-  color: var(--cloud);
+  color: #f4f4fd;
 }
 
 .footer-text {
-  color: var(--cloud);
+  color: #f4f4fd;
 }
