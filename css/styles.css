@@ -127,7 +127,7 @@ ul {
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
-  color: #404bbf;
+  color: var(--ocean);
 }
 .header-menu-item {
   color: var(--navy-blue);
@@ -156,7 +156,7 @@ ul {
 
 .header-contacts-link:hover,
 .header-contacts-link:focus {
-  color: #404bbf;
+  color: var(--ocean);
 }
 
 /* HERO */
@@ -186,7 +186,7 @@ ul {
 }
 .hero-button:hover,
 .hero-button:focus {
-  background-color: #404bbf;
+  background-color: var(--ocean);
 }
 
 /* ADVANTAGES */
